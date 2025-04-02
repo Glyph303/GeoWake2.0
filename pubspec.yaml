@@ -1,6 +1,6 @@
 name: wake_up_call
 description: "A GPS-based alarm clock for buses and trains."
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -12,13 +12,19 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  
+
   # Google Maps
   google_maps_flutter: ^2.5.0
   google_maps_flutter_web: ^0.5.4
 
   # GPS Tracking
   geolocator: ^13.0.4
+
+  # geocoding
+  geocoding: ^3.0.0
+
+  #places
+  google_places_flutter: ^2.0.5
 
   # Route Drawing
   flutter_polyline_points: ^2.0.0
